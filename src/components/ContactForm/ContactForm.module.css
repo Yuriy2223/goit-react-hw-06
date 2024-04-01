@@ -1,0 +1,59 @@
+.form {
+  max-width: 90%;
+  margin: 0 auto;
+  border: 3px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.formImput {
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 3px solid blue;
+  border-radius: 7px;
+  width: 100%;
+  outline: 0;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.formImput:hover,
+.formImput:focus {
+  outline: 0;
+  box-shadow: 0 0 15px blue;
+}
+
+.inputLabel {
+  color: blue;
+}
+
+.formBtn {
+  padding: 10px;
+  background-color: yellow;
+  color: blue;
+  border: none;
+  border-radius: 7px;
+  border: 3px solid blue;
+  display: block;
+  margin: 20px auto 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.formBtn:hover {
+  box-shadow: 0 0 20px blue;
+  border: 3px solid yellow;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background-color: yellow;
+  color: blue;
+  padding: 1px 3px;
+  border: 1px solid #f3f3f5;
+  border-radius: 5px;
+}
